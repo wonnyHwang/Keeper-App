@@ -32,18 +32,24 @@
 |App → RaspberryPi 사용자 경험(UX) 제공|최소 2초이내 작동 & 지연: 1초 이내|Raspberry Pi에서 시스템 기능 전달 시, 메시지가 섞이지 않도록 MultiThread 구현|
 
 
+
 ### 2. 최종 결과물
 * 기능 블록도
 
 ![image](https://github.com/user-attachments/assets/52e299ef-2502-4c7d-95f7-cfc99910131d)
 
+
+
 * 안드로이드 App
 
 ![image](https://github.com/user-attachments/assets/22602806-9781-4def-9f16-7ea552cd6ad0)
 
+
+
 * 기능 실행
 
 ![image](https://github.com/user-attachments/assets/193b1e28-3f2e-4e10-ae58-49315276f5cc)
+
 
 
 ### 3. 종합설계 프로젝트 구성 요소 및 제한 요소, 구현 사양
@@ -52,6 +58,9 @@
 |Client-Server / 양방향 Full-Duplex TCP 통신|컴퓨터 네트워크|Application 및 MFC 이용|RaspberryPi – ServerApplication – ClientMFC(119) - Server|양방향 Socket 통신 / App 이용|
 |MQ-7B, MQ-4 센서 유독가스 검출|임베디드|Raspberry Pi / MQ-7B, MQ-4 이용|가스 감지 및 상황 전달|Raspberry Pi / ADC 변환 사용|
 |LED, 부저 -> 상황 전달|임베디드|Raspberry Pi / LED, 부저 사용|LED, 부저|상황에 따른 3단계 LED 및 부저|
+
+
+
 
 ### 4. 결과물 성능 분석
 |핵심 필수 기능|최초 성능 목표|구현 성능|달성 여부 분석|

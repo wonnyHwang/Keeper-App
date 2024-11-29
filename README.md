@@ -27,6 +27,7 @@
 
 ### 2. 최종 결과물
 * 기능 블록도
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f3126d18-5831-4067-9d49-ba1cbc36a5a9/92baeb96-168b-4225-aa1b-a457ca78fa83/image.png)
+![image](https://github.com/user-attachments/assets/52e299ef-2502-4c7d-95f7-cfc99910131d)
+
 
 

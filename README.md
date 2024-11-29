@@ -48,7 +48,7 @@
 
 ### 3. 종합설계 프로젝트 구성 요소 및 제한 요소, 구현 사양
 |요소 설계 기술|관련 교과목|제한 요소(구현, 가격 등)|구현 사양 (SPEC)(필수 기능 / 성능)|비고 (참고 사항)|
-|:---:|:--------:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 |Client-Server / 양방향 Full-Duplex TCP 통신|컴퓨터 네트워크|Application 및 MFC 이용|RaspberryPi – ServerApplication – ClientMFC(119) - Server|양방향 Socket 통신 / App 이용|
 |MQ-7B, MQ-4 센서 유독가스 검출|임베디드|Raspberry Pi / MQ-7B, MQ-4 이용|가스 감지 및 상황 전달|Raspberry Pi / ADC 변환 사용|
 |LED, 부저 -> 상황 전달|임베디드|Raspberry Pi / LED, 부저 사용|LED, 부저|상황에 따른 3단계 LED 및 부저|

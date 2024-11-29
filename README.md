@@ -30,8 +30,8 @@
 
 
 ### 2. 최종 결과물
-
 * 기능 블록도
+
 ![image](https://github.com/user-attachments/assets/52e299ef-2502-4c7d-95f7-cfc99910131d)
 
 
